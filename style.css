@@ -16,12 +16,13 @@ body{
 
 #button{
     border: outset;
-    margin-left:2px;
+    /* margin-left:2px; */
     background-color:lightcyan;
 }
 
 #header{
-    background-image:radial-gradient(blue, lightblue);
+    background-image:linear-gradient( 35deg,lightblue ,blue);
+    border: 4px blue groove
 }
 
 #header-img{
@@ -37,18 +38,25 @@ body{
     margin-right: 7px;
 }
 
-
-
-#nav-link{
-    display:flex;
-    justify-content:center
+a{
+    margin-right: 55px;
 }
 
-@media screen and (max-width:600px){
+
+@media screen and (max-width:650px){
 
     #nav-bar{
         display:flex;
-        flex-direction: column;
+        justify-content:center;
         align-items: center;
+        flex-direction:column;
+        flex-wrap:wrap;
     }
+    
+   #link-holder{
+       display:flex;
+       flex-direction:row;
+   }
+   
+
 }
