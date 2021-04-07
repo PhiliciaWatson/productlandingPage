@@ -5,10 +5,7 @@ body, html {
     /* background-size:100vh; */
     background-repeat: no-repeat;
     background-size: cover;
-
 }
-
-
 
 #search-area{
    display:flex;
@@ -40,7 +37,7 @@ body, html {
 }
 
 
-nav{
+#nav-bar{
     display:flex;
     justify-content: space-between;
     align-items:center;
@@ -56,18 +53,12 @@ a{
 
 @media screen and (max-width:650px){
 
-    nav{
+    #nav-bar{
         display:flex;
         justify-content:center;
         align-items: center;
         flex-direction:column;
         flex-wrap:wrap;
-    }
-    
-   #linkholder{
-       display:flex;
-       flex-direction:row;
-   }
-   
+    }   
 
 }

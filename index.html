@@ -11,7 +11,8 @@
 </head>
 <body>
 
-    <header id="header"> 
+  <div class="container-auto">
+    <header id="header" > 
         <nav id="nav-bar">
             <span style="font-family:'Dancing Script', cursive;font-size:5vh;">
                 <img src="bow.png" id="header-img">
@@ -37,6 +38,14 @@
     <div style=" background-color:whitesmoke;">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente labore similique, error quia ipsam necessitatibus reiciendis incidunt inventore veniam nihil odit, debitis adipisci nostrum quidem vitae quod provident dolore rerum.</p>
     </div>
+
+    <div class="embed-responsive embed-responsive-4by3">
+      <iframe src="https://www.youtube.com/embed/isIKVPnfryg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="embed-responsive-item">
+      </iframe>    
+    </div>
+
+
+
     
     <div>
         <p>Products</p>
@@ -45,24 +54,27 @@
     <div id='container-fluid justify-content-center' style="background-color:red;">
         <div class="row gy-3 px-5">
         <!-- Product 1 -->
-        <div class="card col-md-3 mx-md-n5 mx-3" >
+        <div class="card col-md-3 mx-md-n5 mx-3">
             <img src="https://images-na.ssl-images-amazon.com/images/I/71XPQO872iL._AC_SL1500_.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="btn btn-primary justify-self-center">Primary</button>
             </div>
           </div>
           <!-- Product 2 -->
           <div class="card col-md-3 mx-3">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/61LNwaSkHHL._AC_SL1001_.jpg" class="card-img-top" alt="...">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/61LNwaSkHHL._AC_SL1001_.jpg" class="card-img-top w-auto h-auto" alt="...">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="btn btn-primary">Primary</button>
             </div>
           </div>
           <!-- Product 3 -->
           <div class="card col-md-3 mx-3">
-            <img src="https://i.pinimg.com/564x/f4/a8/dc/f4a8dc5473c75b5cb3b462d8ba013e9b.jpg" class="card-img-top" alt="...">
+            <img src="https://i.pinimg.com/564x/f4/a8/dc/f4a8dc5473c75b5cb3b462d8ba013e9b.jpg" class="card-img-top w-100 h-100" alt="...">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="btn btn-primary">Primary</button>
             </div>
           </div>
           <!-- Product 4 -->
@@ -70,6 +82,7 @@
             <img src="https://cdn.homedit.com/wp-content/uploads/2017/01/Geometric-multi-face-table-lamp.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="btn btn-primary">Primary</button>
             </div>
           </div>
           <!-- Product...-->
@@ -84,6 +97,6 @@
         <input type="email" id="email" placeholder="email">
         <button>Submit</button>
     </form>
-   
+  </div>
 </body>
 </html>
